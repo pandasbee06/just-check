@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5DC; /* Light Beige Background (Pairs Well with Green) */
+}
+
+/* Navigation Bar (Green Theme) */
+nav {
+    background-color: #2E8B57; /* Green */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo img {
+    height: 50px;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* White Text */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+/* Hover Effect */
+nav ul li a:hover {
+    background-color: #276749; /* Darker Green */
+}
+
+/* Main Section */
+main {
+    background-color: #FAF3E0; /* Light Cream */
+    padding: 20px;
+    min-height: 80vh; /* Ensures the page is filled */
+}
+
+/* Footer (Green Theme) */
+footer {
+    text-align: center;
+    background-color: #2E8B57; /* Same Green as Navbar */
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

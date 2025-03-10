@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #2E8B57; /* Green */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo img {
+    height: 50px;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* White Text */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+/* Active Page Highlight */
+nav ul li a.active {
+    background-color: #276749; /* Darker Green */
+}
+
+/* Hover Effect */
+nav ul li a:hover {
+    background-color: #276749;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin
